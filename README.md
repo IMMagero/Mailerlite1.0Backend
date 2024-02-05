@@ -31,14 +31,14 @@ The following HTTP Methods are used in this API:
 
 ### Endpoints 
 
-#### /user/create
+#### 1) /user/create
 POST - http://localhost/mailerlite/index.php/user/create
 ##### Body Params
 - name - string
 - lastname - string
 - email - string
 
-#### user/search?email=test@gmail.com
+#### 2) user/search?email=test@gmail.com
 GET - http://localhost/mailerlite/index.php/user/search?email=test@gmail.com
 ##### Query Params
 - email - string
