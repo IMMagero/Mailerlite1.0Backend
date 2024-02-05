@@ -26,21 +26,21 @@ e.g http://localhost/mailerlite/index.php
 
 The following HTTP Methods are used in this API:
 
-GET - Retrieve a resource
-POST - Create a resource
+- GET - Retrieve a resource
+- POST - Create a resource
 
 ### Endpoints 
 
 #### /user/create
 POST - http://localhost/mailerlite/index.php/user/create
 ##### Body Params
-name - string
-lastname - string
-email - string
+- name - string
+- lastname - string
+- email - string
 
 #### user/search?email=test@gmail.com
 GET - http://localhost/mailerlite/index.php/user/search?email=test@gmail.com
 ##### Query Params
-email - string
+- email - string
 
 
